@@ -1,5 +1,5 @@
 export default ({ env }) => {
-  // Для Strapi Cloud используем ТОЛЬКО PostgreSQL
+  // FORCE POSTGRES FOR ALL ENVIRONMENTS
   return {
     connection: {
       client: 'postgres',
