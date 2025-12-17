@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "deserties",
+  "info": {
+    "singularName": "deserty",
+    "pluralName": "deserties",
+    "displayName": "Десерты"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "photo": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "weight": {
+      "type": "integer"
+    },
+    "description": {
+      "type": "text"
+    },
+    "ingredients": {
+      "type": "text"
+    }
+  }
+}
