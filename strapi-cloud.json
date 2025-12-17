@@ -1,0 +1,5 @@
+{
+  "deploy": {
+    "beforeBuild": "npm ci --prefer-offline --no-audit"
+  }
+}

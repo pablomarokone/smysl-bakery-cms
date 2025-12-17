@@ -4,7 +4,8 @@
   "private": true,
   "description": "A Strapi application",
   "scripts": {
-    "postinstall": "rm -rf node_modules/.cache || true",
+    "preinstall": "npm uninstall better-sqlite3 --no-save || true",
+  "postinstall": "rm -rf node_modules/.cache || true",
     "build": "strapi build",
     "console": "strapi console",
     "deploy": "strapi deploy",
