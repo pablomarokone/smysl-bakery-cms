@@ -1,0 +1,33 @@
+{
+  "collectionName": "news",
+  "info": {
+    "singularName": "news",
+    "pluralName": "news",
+    "displayName": "News",
+    "description": "Новости сайта"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "date": {
+      "type": "date",
+      "required": true
+    },
+    "excerpt": {
+      "type": "text"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false
+    },
+    "fullContent": {
+      "type": "richtext"
+    }
+  }
+}
